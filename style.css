@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+header img{
+  height: 30px;
+  width: 80px;
+}
+nav{
+    background-color: aqua;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    padding: 8px;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: none;
+}
+
+ .boton{
+    display: flex;
+    background-image: url(/Portada/245ea527-2f74-4bd1-87c4-2e194f505fe3___6fab027eed7b86a916644e374658014e.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position:center;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+ }
+ button{
+    border: none;
+    border-radius: 40%;
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: gray;
+ }
+ #conteitemscarrusel{
+   height: 300px;
+   width: 100%;
+   overflow: hidden;
+ }
+ .itemcarrusel{
+   height: 100%;
+   position: relative;
+ }
+ .tarjetacarrusel{
+   height: 100%;
+   text-align: center;
+   
+ }
+ .flechascarrusel{
+   background-color: rgb(139, 81, 192) 0.3;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+ }
+
+ .tarjetacarrusel img{
+   display: flex;
+   width: 100%;
+   object-fit: contain; 
+   height: 250px;
+ }
+ #conteitemscarrusel2{
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+.itemcarrusel2{
+  height: 100%;
+  position: relative;
+}
+.tarjetacarrusel2{
+  height: 100%;
+  text-align: center;
+  
+}
+.flechascarrusel2{
+  background-color: rgb(139, 81, 192) 0.3;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.tarjetacarrusel2 img{
+  display: flex;
+  width: 100%;
+  object-fit: contain; 
+  height: 250px;
+}
+#conteitemscarrusel3{
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+.itemcarrusel3{
+  height: 100%;
+  position: relative;
+}
+.tarjetacarrusel3{
+  height: 100%;
+  text-align: center;
+  
+}
+.flechascarrusel3{
+  background-color: rgb(139, 81, 192) 0.3;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.tarjetacarrusel3 img{
+  display: flex;
+  width: 100%;
+  object-fit: contain; 
+  height: 250px;
+}
+ figure img{
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+ }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*.buzos{
+    justify-content: center;
+ }
+ .coleccionbuzos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 350px;
+ }
+ .coleccionbuzos img{
+    height: 300px;
+ }
+
+
+ h3{
+    padding: 10px;
+    font-size: large;
+    background-color: aquamarine;
+ }
+ .pantalones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 350px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+ }
+ .pantalones img{
+    height: 300px;
+ }
+.zapatillas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.zapatillas img{
+    height: 300px;
+}
+*/
+
+
+
+

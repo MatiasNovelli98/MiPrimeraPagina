@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+  <title>Mi pagina</title>
+</head>
+
+<body>
+  <header>
+    <img src="/img/nike.jpeg" alt="">
+    <nav>
+      <ul>
+        <li><a href="#conteitemscarrusel">Buzos </a></li>
+        <li><a href="#conteitemscarrusel2">Zapatillas</a></li>
+        <li><a href="#conteitemscarrusel3">Pantalones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="boton">
+    <button>Comprar</button>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide bg-primary">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Buzos/buzo-con-capucha-nike-sportwear-swoosh-mujer-rojo-510020cz8896696-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/Buzos/buzo-nike-sportswear-swoosh-mujer-negro-510020cz8890010-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/Buzos/NI_AQ0199-100-1.jfif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ <!--
+  <div id="conteitemscarrusel">
+    <div class="itemcarrusel" id="itemcarrusel1">
+      <div class="tarjetacarrusel" id="tarjetacarrusel1">
+        <img src="/Buzos/buzo-con-capucha-nike-sportwear-swoosh-mujer-rojo-510020cz8896696-1.jpg" alt="">
+        <p>Buzo Sportwear rojo</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel">
+        <a href="#tarjetacarrusel3"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel2"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+
+    <div class="itemcarrusel" id="itemcarrusel2">
+      <div class="tarjetacarrusel" id="tarjetacarrusel2">
+        <img src="/Buzos/buzo-nike-sportswear-swoosh-mujer-negro-510020cz8890010-1.jpg" alt="">
+        <p>Buzo Sportwear negro</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel">
+        <a href="#tarjetacarrusel1"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel3"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+    <div class="itemcarrusel" id="itemcarrusel3">
+      <div class="tarjetacarrusel" id="tarjetacarrusel3">
+        <img src="/Buzos/NI_AQ0199-100-1.jfif" alt="">
+        <p>Buzo Blanco</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel">
+        <a href="#tarjetacarrusel2"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel1"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+  </div>
+
+  <figure>
+    <img src="/Portada/run-nike-running-shoes-646cdd1a19c41.jpg" alt="">
+  </figure>
+
+
+  <div id="conteitemscarrusel2">
+    <div class="itemcarrusel2" id="itemcarrusel1">
+      <div class="tarjetacarrusel2" id="tarjetacarrusel4">
+        <img src="/Zapatillas/426455-800-800.webp" alt="">
+        <p>Zapatilla W&Y</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel2">
+        <a href="#tarjetacarrusel5"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel6"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+
+    <div class="itemcarrusel2" id="itemcarrusel2">
+      <div class="tarjetacarrusel2" id="tarjetacarrusel5">
+        <img src="/Zapatillas/5ecdacb9f14bf-496728-1200x1200.jpg" alt="">
+        <p>Zapatilla Black</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel">
+        <a href="#tarjetacarrusel6"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel4"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+    <div class="itemcarrusel2" id="itemcarrusel3">
+      <div class="tarjetacarrusel2" id="tarjetacarrusel6">
+        <img src="/Zapatillas/699261-800-800.webp" alt="">
+        <p>Zapatilla TotalWhite</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel2">
+        <a href="#tarjetacarrusel4"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel5"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+  </div>
+
+  <figure>
+    <img src="/Portada/portadajpg-1cc5f3d11572ccee6cea.jpg" alt="">
+  </figure>
+
+  <div id="conteitemscarrusel3">
+    <div class="itemcarrusel3" id="itemcarrusel1">
+      <div class="tarjetacarrusel3" id="tarjetacarrusel7">
+        <img src="/Pantalones/d443d476-a246-4a3f-9dac-26a6a7089e0f1-e6223f67271b3a041016809159848562-1024-1024.webp"
+          alt="">
+        <p>Pantalon Nike Liso</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel2">
+        <a href="#tarjetacarrusel8"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel9"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+
+    <div class="itemcarrusel3" id="itemcarrusel3">
+      <div class="tarjetacarrusel3" id="tarjetacarrusel8">
+        <img src="/Pantalones/pantalon-nike-sportswear-just-do-it-negro-510020da0144010-1.jpg" alt="">
+        <p>Pantalon JustDoIt</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel">
+        <a href="#tarjetacarrusel9"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel7"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+    <div class="itemcarrusel3" id="itemcarrusel3">
+      <div class="tarjetacarrusel3" id="tarjetacarrusel9">
+        <img src="/Pantalones/s-l640.jpg" alt="">
+        <p>Pantalon White Jordan</p>
+        <p>$5200</p>
+      </div>
+      <div class="flechascarrusel3">
+        <a href="#tarjetacarrusel7"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+          </svg></a>
+        <a href="#tarjetacarrusel8"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-badge-right" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+          </svg></a>
+      </div>
+    </div>
+  </div>
+  -->
+
+  <footer>
+
+  </footer>
+
+  <script src="/bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
